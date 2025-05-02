@@ -20,7 +20,7 @@ const UsersRoutes = () => {
           <Link to="/users/2">User 2</Link>
         </li>
       </ul>
-      <Outlet />
+      <Outlet context={{ abc: 123 }} />
     </>
   );
 };
