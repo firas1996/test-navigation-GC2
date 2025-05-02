@@ -9,7 +9,9 @@ const UsersRoutes = () => {
           <Link to="/users">Users</Link>
         </li>
         <li>
-          <Link to="/users/create">Create</Link>
+          <Link to="/users/create" state={{ name: "Test" }}>
+            Create
+          </Link>
         </li>
         <li>
           <Link to="/users/1">User 1</Link>
